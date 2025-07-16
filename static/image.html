@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+  background:
+  url('https://previews.123rf.com/images/kmiragaya/kmiragaya1208/kmiragaya120800094/14993671-colorful-clocks-background.jpg') 50% 110px no-repeat,
+  url('https://i0.wp.com/www.songstuff.com/wp-content/uploads/2014/01/380_sudio_spectrum_2.webp') 110px 200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.txtimg{
+    display: inline-block;
+    text-align: center;
+}
+.txtimg > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+
+      <script type = "text/JavaScript">
+         <!--
+            function AutoRefresh( t ) {
+               setTimeout("location.reload(true);", t);
+            }
+         //-->
+      </script>
+
+   </head>
+
+   <body onload = "JavaScript:AutoRefresh(5000);">
+   <h1 align="center"><font color="3399FF" size="8"><strong><u>NAME THAT TUNE</u></strong></font></h1>
+
+      <div id="container">
+         <div class="row">
+            <div class="column">
+             <div class="txtimg">
+                 <p><font color="3399FF" size="5"><strong>Guess the current song:</strong></font></p>
+                 <img src= https://i.scdn.co/image/ab67616d0000b273dfdefe159fd457b152e9d367 style="width:60%">
+             </div>
+            </div>
+            <div class="column">
+             <div class="txtimg">
+                 <p><font color="3399FF" size="5"><strong>Previous song was: Ready Set Roll</strong></font></p>
+                 <img src= https://i.scdn.co/image/ab67616d0000b2731e51f606e7ba450ac810e0a1 style="width:60%">
+             </div>
+            </div>
+         </div>
+      </div>
+
+
+      <p align="center"><font color="3399FF" size="5"><strong>Currently on round: 11</strong></font></p>
+
+   </body>
+
+</html>
