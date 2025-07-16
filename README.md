@@ -6,9 +6,12 @@ Interactive web-based game integrated with Spotify API that lets players guess s
 <img width="1914" height="906" alt="image" src="https://github.com/user-attachments/assets/6321769c-30b2-4b75-b539-8d6079ab3a37" />
 
 ## Features
-- Connects with Spotify API.
+- Connects with Spotify API to atuomatically:
+-     Skip to the next song, allowing you to use any customized playlist
+-     Pull in the album cover for the current song to make it easier to guess
+-     Pull in the previous song album cover and song name to validate answers
 - Interactive and refreshing web interface.
-- Customizable rounds and songs.
+- Configurable background image and timer image that descends as the rounds get larger  
 
 ## Requirements
 - Python 3.6+
