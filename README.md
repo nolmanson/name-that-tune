@@ -18,3 +18,4 @@ git clone https://github.com/your_username/Name-That-Tune-Game.git
 cd Name-That-Tune-Game
 pip install -r requirements.txt
 
+<img width="1914" height="906" alt="image" src="https://github.com/user-attachments/assets/f20fd99c-67ba-484c-add4-c7d69455c6a1" />
